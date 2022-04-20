@@ -1,5 +1,5 @@
 from flask import Flask, request
-from middleware import middleware
+from middleware_flask import middleware
 
 app = Flask('DemoApp')
 
